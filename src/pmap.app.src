@@ -1,0 +1,15 @@
+{application, pmap,
+[
+    {description, "Paralel maps"},
+    {vsn, "0.1"},
+    {modules, [
+        pmap
+    ]},
+    {registered, []},
+    {applications, []},
+    {env, []},
+    {files, [
+      "src",
+      "rebar.config"
+    ]}
+]}.
